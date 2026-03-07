@@ -19,7 +19,7 @@ body{
     width: 480px;
     height: 480px;
     align-self: center;
-    box-shadow: 0 0 0 4px #c69c6d, 0 0 0 8px #5a3206;
+    box-shadow: 0 0 0 4px rgb(198, 156, 109), 0 0 0 8px #5a3206;
     display: flex;
     
     flex-wrap: wrap;
@@ -33,7 +33,7 @@ body{
 .white{
     width: 60px;
     height: 60px;
-    background-color: white;
+    background-color: rgb(198, 156, 109);
     display: flex;
 }
 
@@ -41,18 +41,18 @@ body{
     width: 60px;
     height: 60px;
     display: flex;
-    background-color: rgb(58, 196, 243);
+    background-color:  #5a3206;
 }
 
 .Bpic{
     font-size:50px;
-    color: rgb(72, 0, 255);
+    color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
 }
 .Wpic{
     font-size:50px;
-    color: rgb(255, 4, 4);
+    color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
 }
@@ -62,3 +62,5 @@ body{
     cursor: pointer;
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
+
+
