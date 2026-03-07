@@ -1,23 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 #box{
     width: 520px;
     height: 520px;
     background-color: rgba(156, 90, 9, 0.704);
-    
     display: flex;
     justify-content: center;
+    box-shadow: 0 0 0 4px #5a3206, 0 0 0 8px #c69c6d,0 1px 40px rgb(6, 55, 76);
+    
 }
 
 #center{
     width: 480px;
     height: 480px;
     align-self: center;
-
+    box-shadow: 0 0 0 4px #c69c6d, 0 0 0 8px #5a3206;
     display: flex;
     
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    transition: all 0.2s ease;
 }
 
 
@@ -32,7 +41,7 @@
     width: 60px;
     height: 60px;
     display: flex;
-    background-color: black;
+    background-color: rgb(58, 196, 243);
 }
 
 .Bpic{
@@ -46,4 +55,10 @@
     color: rgb(255, 4, 4);
     justify-content: center;
     align-items: center;
+}
+
+/* HOVER effect */
+#center div:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
