@@ -57,11 +57,11 @@ function movePawn(square){
         const index = Array.from(squares).indexOf(square);
 
         if(square.textContent === "♙"){   // white pawn
-            squares[index+8].style.background = "lightgreen";
+            squares[index-8].style.background = "lightgreen";
         }
 
         if(square.textContent === "♟"){   // black pawn
-            squares[index-8].style.background = "lightgreen";
+            squares[index+8].style.background = "lightgreen";
         }
     }
 }
